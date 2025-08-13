@@ -1,3 +1,3 @@
 Link para acesso a plataforma
 
-https://proad-plataforma.web.app/administrativo
+https://proad-plataforma.web.app/dashboard
