@@ -18,6 +18,10 @@ public class Processo {
     @Column(nullable = false)
     private String objeto;
 
+    @Transient
+    private String unidadeAtual;
+
+
     // Getters e Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
@@ -31,4 +35,11 @@ public class Processo {
     public String getObjeto() { return objeto; }
     public void setObjeto(String objeto) { this.objeto = objeto; }
 
+    public String getUnidadeAtual() {
+        return unidadeAtual;
+    }
+
+    public void setUnidadeAtual(String unidadeAtual) {
+        this.unidadeAtual = unidadeAtual;
+    }
 }
